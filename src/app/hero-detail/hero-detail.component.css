@@ -1,0 +1,35 @@
+.hero-id,
+.hero-name     {
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 5px 0;
+}
+
+.hero-id span,
+.hero-name label {
+  color: #000000;
+  margin-right: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.hero-name input {
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+button {
+  padding: 5px 15px;
+  background: rgb(166, 196, 194);
+  color: #000000;
+  border: 0px;
+  text-transform: uppercase;
+  margin: 12px 0;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgb(133, 204, 199);
+}
